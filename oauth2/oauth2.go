@@ -41,13 +41,13 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 	"context"
 	"errors"
-	"github.com/go2s/ala/auth"
+	"github.com/soundbus-technologies/ala/auth"
 	"io/ioutil"
 	"net/http"
 	"log"
 	"encoding/json"
 	"strings"
-	"github.com/go2s/o2x"
+	"github.com/soundbus-technologies/o2x"
 )
 
 func ResetResourceScope(resource string, authPrefix string, authReplace string) string {

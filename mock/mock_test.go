@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"encoding/json"
 	"github.com/stretchr/testify/assert"
-	"github.com/go2s/ala/auth"
+	"github.com/soundbus-technologies/ala/auth"
 )
 
 func TestHandle(t *testing.T) {
